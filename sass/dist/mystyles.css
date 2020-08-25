@@ -4287,12 +4287,12 @@ body.has-spaced-navbar-fixed-bottom {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 80%;
+  margin-bottom: 50%;
 }
 .introduction .intro-items img {
   border-radius: 50%;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   margin-bottom: 10%;
 }
 .introduction .intro-items #name {
