@@ -13422,6 +13422,10 @@ body.has-spaced-navbar-fixed-bottom {
   }
 }
 
+.breadcrumb {
+  margin: 5%;
+}
+
 .introduction {
   height: 70vh;
   display: flex;
