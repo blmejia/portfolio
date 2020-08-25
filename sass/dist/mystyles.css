@@ -4298,3 +4298,6 @@ body.has-spaced-navbar-fixed-bottom {
 .introduction .intro-items #name {
   margin-bottom: 0;
 }
+.introduction .intro-items .social-icons {
+  font-size: 28px;
+}
