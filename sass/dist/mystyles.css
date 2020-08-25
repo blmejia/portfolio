@@ -13467,3 +13467,6 @@ body.has-spaced-navbar-fixed-bottom {
   margin: 1em 0;
   padding: 0;
 }
+.projects .card {
+  margin-bottom: 10%;
+}
