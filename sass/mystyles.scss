@@ -38,22 +38,26 @@ $input-shadow: none;
 
 .introduction{
     height: 70vh;
-    background-color: $beige-light;
+    //background-color: $beige-light;
     display: flex;
     justify-content: center;
     align-items: flex-end;
     
-    width: 50%;
+    width: 45%;
 
     .intro-items{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        margin-bottom: 100%;
+        margin-bottom: 80%;
         img{
             border-radius: 50%;
             width: 90px;
             height: 90px;
+            margin-bottom: 10%;
+        }
+        #name{
+            margin-bottom: 0;
         }
     }
     

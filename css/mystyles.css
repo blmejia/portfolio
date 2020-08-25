@@ -3345,17 +3345,19 @@ a.navbar-item,
 
 .introduction {
   height: 70vh;
-  background-color: #D0D1CD;
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  width: 50%; }
+  width: 45%; }
   .introduction .intro-items {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 100%; }
+    margin-bottom: 80%; }
     .introduction .intro-items img {
       border-radius: 50%;
       width: 90px;
-      height: 90px; }
+      height: 90px;
+      margin-bottom: 10%; }
+    .introduction .intro-items #name {
+      margin-bottom: 0; }
