@@ -3343,7 +3343,18 @@ a.navbar-item,
     .section.is-large {
       padding: 18rem 1.5rem; } }
 
-section img {
-  border-radius: 50%;
-  width: 90px;
-  height: 90px; }
+.introduction {
+  height: 70vh;
+  background-color: #D0D1CD;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%; }
+  .introduction .intro-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .introduction .intro-items img {
+      border-radius: 50%;
+      width: 90px;
+      height: 90px; }

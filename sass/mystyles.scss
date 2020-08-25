@@ -36,10 +36,24 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
 
-section{
-    img{
-        border-radius: 50%;
-        width: 90px;
-        height: 90px;
+.introduction{
+    height: 70vh;
+    background-color: $beige-light;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    width: 50%;
+
+    .intro-items{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        img{
+            border-radius: 50%;
+            width: 90px;
+            height: 90px;
+        }
     }
+    
 }
