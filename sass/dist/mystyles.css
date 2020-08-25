@@ -4288,6 +4288,7 @@ body.has-spaced-navbar-fixed-bottom {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 100%;
 }
 .introduction .intro-items img {
   border-radius: 50%;
