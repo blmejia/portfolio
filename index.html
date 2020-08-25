@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BrothaVeracity | My Portfolio</title>
     <link rel="stylesheet" href="css/mystyles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/f0f7ade3a3.js" crossorigin="anonymous"></script>
+    
   </head>
   <body>
+
+    <!--MOBILE-->
+
     <section class="container introduction">
         <div class="intro-items">
             <img src="img/profile.jpg" alt="">
@@ -18,10 +23,46 @@
                 <i class="fab fa-instagram-square"></i>
                 <i class="fab fa-twitter-square"></i>
                 <i class="fas fa-envelope-square"></i>
-              
             </div>
         </div>
-        
     </section>
+
+    <section class="projects container">
+        <p class="title" data-aos="fade-up" data-aos-duration="2000" >Latest Work</p>
+        <hr data-aos="fade-up" data-aos-duration="2000">
+
+        <div id="projects1">
+            <div class="card">
+                <div class="card-content">
+                  <img src="img/HdHirollerMockUp.JPG" alt="">
+                  <p class="subtitle">
+                    Music Site for Client
+                  </p>
+                </div>
+                <footer class="card-footer">
+                  <p class="card-footer-item">
+                    <span>
+                        <button class="button is-link is-rounded">Visit</button>
+                    </span>
+                  </p>
+                  <p class="card-footer-item">
+                    <span>
+                        <button class="button is-link is-rounded">Case Study</button>
+                    </span>
+                  </p>
+                </footer>
+              </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>
