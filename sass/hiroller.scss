@@ -38,17 +38,30 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
 
-
+.bubble{
+    background-color: #fff;
+    width: auto;
+    height: auto + 10px;
+    border: solid 2px black;
+    border-radius: 25px;
+}
 
 .breadcrumb{
     margin: 5%;
 }
 
 .introduction{
-    background-color: red;
+    //background-color: red;
     display: flex;
     width: auto;
     height: 80vh;
     justify-content: center;
     margin: 5%;
+    align-items: center;
+
+    .subtitle{
+        font-size: 1.125rem; 
+        margin: 5%;
+    }
+
 }
