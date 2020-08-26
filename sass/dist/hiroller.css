@@ -13425,7 +13425,7 @@ body.has-spaced-navbar-fixed-bottom {
 .bubble {
   background-color: #fff;
   width: auto;
-  height: auto10px;
+  height: auto;
   border: solid 2px black;
   border-radius: 25px;
 }
@@ -13437,7 +13437,7 @@ body.has-spaced-navbar-fixed-bottom {
 .introduction {
   display: flex;
   width: auto;
-  height: 80vh;
+  height: auto;
   justify-content: center;
   margin: 5%;
   align-items: center;

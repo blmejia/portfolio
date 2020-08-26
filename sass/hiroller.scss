@@ -41,7 +41,7 @@ $input-shadow: none;
 .bubble{
     background-color: #fff;
     width: auto;
-    height: auto + 10px;
+    height: auto;
     border: solid 2px black;
     border-radius: 25px;
 }
@@ -51,10 +51,11 @@ $input-shadow: none;
 }
 
 .introduction{
+
     //background-color: red;
     display: flex;
     width: auto;
-    height: 80vh;
+    height: auto;
     justify-content: center;
     margin: 5%;
     align-items: center;
