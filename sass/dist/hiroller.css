@@ -13521,3 +13521,20 @@ body {
   height: 256px;
   width: 100%;
 }
+
+.workflow {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+.workflow .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.workflow .content img {
+  height: 100px;
+  width: auto;
+  margin: 5%;
+}
