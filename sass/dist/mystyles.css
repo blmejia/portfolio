@@ -13426,6 +13426,17 @@ body.has-spaced-navbar-fixed-bottom {
   margin: 5%;
 }
 
+.sticky-nav .navbar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sticky-nav .navbar .navbar-menu {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 .introduction {
   height: 70vh;
   display: flex;

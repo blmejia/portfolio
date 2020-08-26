@@ -47,6 +47,21 @@ $input-shadow: none;
     margin: 5%;
 }
 
+.sticky-nav{
+    .navbar{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .navbar-menu{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+         
+        }
+    }
+    
+}
 .introduction{
     height: 70vh;
     //background-color: $beige-light;
