@@ -13519,5 +13519,5 @@ body {
 }
 .ui-desktop .content #desktop {
   height: 256px;
-  width: 256px;
+  width: 100%;
 }
