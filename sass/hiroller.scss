@@ -135,3 +135,16 @@ body{
     }
     
 }
+
+.ui-desktop{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

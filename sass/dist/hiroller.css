@@ -13505,3 +13505,15 @@ body {
   height: 50px;
   background-color: #209cee;
 }
+
+.ui-desktop {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+.ui-desktop .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
