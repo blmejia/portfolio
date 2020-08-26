@@ -40,79 +40,15 @@ $input-shadow: none;
 
 
 
-//MOBILE FIRST
-
-
 .breadcrumb{
     margin: 5%;
 }
 
-.sticky-nav{
-    .navbar{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-
-        .navbar-menu{
-            display: flex;
-            width: 100%;
-            justify-content: center;
-         
-        }
-    }
-    
-}
 .introduction{
-    height: 70vh;
-    //background-color: $beige-light;
+    background-color: red;
     display: flex;
+    width: auto;
+    height: 80vh;
     justify-content: center;
-    align-items: flex-end;
-    
-    width: 45%;
-
-    .intro-items{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-bottom: 50%;
-        img{
-            border-radius: 50%;
-            width: 128px;
-            height: 128px;
-            margin-bottom: 10%;
-            //border: solid 2px black;
-            box-shadow: 0px 24px 34px -17px rgba(0,0,0,0.75);
-        }
-        #name{
-            margin-bottom: 0;
-        }
-        .social-icons{
-            font-size: 1.750em;
-        }
-    }
-    
-}
-
-.projects{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 10%;
-    
-
-    .title{
-        font-style: italic;
-    }
-  hr{
-      width: 80%;
-      display: block; height: 1px;
-      border: 0; border-top: 1px solid;
-      margin: 1em 0; padding: 0;
-  }
-
-  .card{
-      margin-bottom: 10%;
-  }
-
+    margin: 5%;
 }
