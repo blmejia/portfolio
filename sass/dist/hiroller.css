@@ -468,7 +468,7 @@ a.box:active {
   color: #363636;
 }
 .button:focus, .button.is-focused {
-  border-color: #3273dc;
+  border-color: #209cee;
   color: #363636;
 }
 .button:focus:not(:active), .button.is-focused:not(:active) {
@@ -5385,7 +5385,7 @@ body.has-spaced-navbar-fixed-bottom {
 .pagination-previous:focus,
 .pagination-next:focus,
 .pagination-link:focus {
-  border-color: #3273dc;
+  border-color: #209cee;
 }
 .pagination-previous:active,
 .pagination-next:active,
@@ -9485,7 +9485,7 @@ table th {
   color: #363636;
 }
 .button:focus, .button.is-focused {
-  border-color: #3273dc;
+  border-color: #209cee;
   color: #363636;
 }
 .button:focus:not(:active), .button.is-focused:not(:active) {
@@ -13449,6 +13449,11 @@ body {
   padding: 0;
 }
 
+.subtitle {
+  font-size: 1.125rem;
+  margin: 5%;
+}
+
 .breadcrumb {
   margin: 5%;
 }
@@ -13479,4 +13484,23 @@ body {
 .ui .content img {
   height: 400px;
   width: 256px;
+}
+.ui .content .colors {
+  display: flex;
+  justify-content: space-between;
+}
+.ui .content .colors .grey {
+  width: 50px;
+  height: 50px;
+  background-color: #212121;
+}
+.ui .content .colors .white {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+.ui .content .colors .blue {
+  width: 50px;
+  height: 50px;
+  background-color: #209cee;
 }
