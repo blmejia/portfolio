@@ -13471,3 +13471,12 @@ body {
   height: auto;
   width: auto;
 }
+.ui .content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ui .content img {
+  height: 400px;
+  width: 256px;
+}

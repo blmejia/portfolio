@@ -65,7 +65,7 @@ body{
     }
 }
 
-
+//////////////////////////////////////////////////////////////
 
 .breadcrumb{
     margin: 5%;
@@ -92,5 +92,16 @@ body{
     justify-content: center;
     height: auto;
     width: auto;
+
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        img{
+            height: 400px;
+            width: 256px;
+        }
+    }
     
 }
