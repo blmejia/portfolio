@@ -13488,6 +13488,7 @@ body {
 .ui .content .colors {
   display: flex;
   justify-content: space-between;
+  margin: 10%;
 }
 .ui .content .colors .grey {
   width: 50px;
