@@ -38,13 +38,34 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/hero.sass";
 @import "../node_modules/bulma/sass/layout/section.sass";
 
+
+
+body{
+    margin: 5%;
+}
+
 .bubble{
     background-color: #fff;
     width: auto;
     height: auto;
     border: solid 2px black;
     border-radius: 25px;
+    margin: 5%;
 }
+
+.line-break{
+    display: flex;
+    justify-content: center;
+    
+    hr{
+        width: 80%;
+        display: block; height: 1px;
+        border: 0; border-top: 1px solid;
+        margin: 1em 0; padding: 0;
+    }
+}
+
+
 
 .breadcrumb{
     margin: 5%;
@@ -57,7 +78,6 @@ $input-shadow: none;
     width: auto;
     height: auto;
     justify-content: center;
-    margin: 5%;
     align-items: center;
 
     .subtitle{
@@ -65,4 +85,12 @@ $input-shadow: none;
         margin: 5%;
     }
 
+}
+
+.ui{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    
 }

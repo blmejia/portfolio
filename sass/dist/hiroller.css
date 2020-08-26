@@ -13422,12 +13422,31 @@ body.has-spaced-navbar-fixed-bottom {
   }
 }
 
+body {
+  margin: 5%;
+}
+
 .bubble {
   background-color: #fff;
   width: auto;
   height: auto;
   border: solid 2px black;
   border-radius: 25px;
+  margin: 5%;
+}
+
+.line-break {
+  display: flex;
+  justify-content: center;
+}
+.line-break hr {
+  width: 80%;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .breadcrumb {
@@ -13439,10 +13458,16 @@ body.has-spaced-navbar-fixed-bottom {
   width: auto;
   height: auto;
   justify-content: center;
-  margin: 5%;
   align-items: center;
 }
 .introduction .subtitle {
   font-size: 1.125rem;
   margin: 5%;
+}
+
+.ui {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  width: auto;
 }
