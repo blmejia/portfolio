@@ -13517,3 +13517,7 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+.ui-desktop .content #desktop {
+  height: 256px;
+  width: 256px;
+}

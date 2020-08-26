@@ -146,5 +146,10 @@ body{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+
+        #desktop{
+            height: 256px;
+            width: 256px;
+        }
     }
 }
