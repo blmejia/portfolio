@@ -262,7 +262,7 @@ th {
     text-align: inherit; }
 
 html {
-  background-color: #263238;
+  background-color: #EEEEEE;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -295,7 +295,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: #fff;
+  color: #212121;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5; }
@@ -348,7 +348,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #fff;
+  color: #212121;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -374,7 +374,7 @@ table th {
   background-color: white;
   border-radius: 6px;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #fff;
+  color: #212121;
   display: block;
   padding: 1.25rem; }
 
@@ -420,12 +420,12 @@ a.box:active {
     .button:focus:not(:active), .button.is-focused:not(:active) {
       box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
   .button:active, .button.is-active {
-    border-color: #fff;
+    border-color: #212121;
     color: #363636; }
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: #fff;
+    color: #212121;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
@@ -1612,11 +1612,11 @@ a.box:active {
   .progress::-webkit-progress-bar {
     background-color: #ededed; }
   .progress::-webkit-progress-value {
-    background-color: #fff; }
+    background-color: #212121; }
   .progress::-moz-progress-bar {
-    background-color: #fff; }
+    background-color: #212121; }
   .progress::-ms-fill {
-    background-color: #fff;
+    background-color: #212121;
     border: none; }
   .progress.is-white::-webkit-progress-value {
     background-color: white; }
@@ -1704,7 +1704,7 @@ a.box:active {
     animation-name: moveIndeterminate;
     animation-timing-function: linear;
     background-color: #ededed;
-    background-image: linear-gradient(to right, #fff 30%, #ededed 30%);
+    background-image: linear-gradient(to right, #212121 30%, #ededed 30%);
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 150% 150%; }
@@ -1899,7 +1899,7 @@ a.box:active {
   align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: #fff;
+  color: #212121;
   display: inline-flex;
   font-size: 0.75rem;
   height: 2em;
@@ -2050,7 +2050,7 @@ a.tag:hover {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: #fff;
+  color: #212121;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -2663,7 +2663,7 @@ a.tag:hover {
 
 .file-cta {
   background-color: whitesmoke;
-  color: #fff; }
+  color: #212121; }
 
 .file-name {
   border-color: #dbdbdb;
@@ -2864,7 +2864,7 @@ a.tag:hover {
   .control.has-icons-left .input:focus ~ .icon,
   .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
   .control.has-icons-right .select:focus ~ .icon {
-    color: #fff; }
+    color: #212121; }
   .control.has-icons-left .input.is-small ~ .icon,
   .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
@@ -2964,7 +2964,7 @@ a.tag:hover {
 .card {
   background-color: white;
   box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #fff;
+  color: #212121;
   max-width: 100%;
   position: relative; }
 
@@ -3051,7 +3051,7 @@ a.tag:hover {
   padding-top: 0.5rem; }
 
 .dropdown-item {
-  color: #fff;
+  color: #212121;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -3210,7 +3210,7 @@ button.dropdown-item {
   line-height: 1.25; }
   .menu-list a {
     border-radius: 2px;
-    color: #fff;
+    color: #212121;
     display: block;
     padding: 0.5em 0.75em; }
     .menu-list a:hover {
@@ -3328,9 +3328,9 @@ button.dropdown-item {
 
 .message-header {
   align-items: center;
-  background-color: #fff;
+  background-color: #212121;
   border-radius: 4px 4px 0 0;
-  color: rgba(0, 0, 0, 0.7);
+  color: #fff;
   display: flex;
   font-weight: 700;
   justify-content: space-between;
@@ -3351,7 +3351,7 @@ button.dropdown-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #fff;
+  color: #212121;
   padding: 1.25em 1.5em; }
   .message-body code,
   .message-body pre {
@@ -3938,7 +3938,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #fff;
+  color: #212121;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -3976,7 +3976,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #fff;
+  color: #212121;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -4447,11 +4447,11 @@ a.navbar-item,
     margin-bottom: -1px;
     padding: 0.5em; }
     .panel-tabs a.is-active {
-      border-bottom-color: #fff;
+      border-bottom-color: #212121;
       color: #363636; }
 
 .panel-list a {
-  color: #fff; }
+  color: #212121; }
   .panel-list a:hover {
     color: #209cee; }
 
@@ -4513,7 +4513,7 @@ label.panel-block {
     border-bottom-color: #dbdbdb;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    color: #fff;
+    color: #212121;
     display: flex;
     justify-content: center;
     margin-bottom: -1px;
@@ -5668,10 +5668,10 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #363636 !important; }
 
 .has-text-grey-dark {
-  color: #fff !important; }
+  color: #212121 !important; }
 
 .has-background-grey-dark {
-  background-color: #fff !important; }
+  background-color: #212121 !important; }
 
 .has-text-grey {
   color: #7a7a7a !important; }
@@ -7183,7 +7183,7 @@ th {
     text-align: inherit; }
 
 html {
-  background-color: #263238;
+  background-color: #EEEEEE;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -7216,7 +7216,7 @@ pre {
   font-family: monospace; }
 
 body {
-  color: #fff;
+  color: #212121;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5; }
@@ -7269,7 +7269,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #fff;
+  color: #212121;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -7327,12 +7327,12 @@ table th {
     .button:focus:not(:active), .button.is-focused:not(:active) {
       box-shadow: 0 0 0 0.125em rgba(32, 156, 238, 0.25); }
   .button:active, .button.is-active {
-    border-color: #fff;
+    border-color: #212121;
     color: #363636; }
   .button.is-text {
     background-color: transparent;
     border-color: transparent;
-    color: #fff;
+    color: #212121;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
       background-color: whitesmoke;
@@ -8237,7 +8237,7 @@ table th {
     font-size: 0.75rem; }
 
 .subtitle {
-  color: #fff;
+  color: #212121;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25; }
@@ -8820,7 +8820,7 @@ table th {
 
 .file-cta {
   background-color: whitesmoke;
-  color: #fff; }
+  color: #212121; }
 
 .file-name {
   border-color: #dbdbdb;
@@ -9021,7 +9021,7 @@ table th {
   .control.has-icons-left .input:focus ~ .icon,
   .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
   .control.has-icons-right .select:focus ~ .icon {
-    color: #fff; }
+    color: #212121; }
   .control.has-icons-left .input.is-small ~ .icon,
   .control.has-icons-left .select.is-small ~ .icon, .control.has-icons-right .input.is-small ~ .icon,
   .control.has-icons-right .select.is-small ~ .icon {
@@ -9563,7 +9563,7 @@ body.has-navbar-fixed-bottom {
   overflow-y: hidden; }
 
 .navbar-burger {
-  color: #fff;
+  color: #212121;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -9601,7 +9601,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #fff;
+  color: #212121;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -10367,21 +10367,6 @@ a.navbar-item,
       padding: 9rem 1.5rem; }
     .section.is-large {
       padding: 18rem 1.5rem; } }
-
-* .title {
-  color: white; }
-
-* p {
-  color: white; }
-
-* .subtitle {
-  color: black; }
-
-* #name {
-  color: white; }
-
-* #title {
-  color: white; }
 
 .breadcrumb {
   margin: 5%; }
