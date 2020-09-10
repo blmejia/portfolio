@@ -333,7 +333,7 @@ th:not([align]) {
 }
 
 html {
-  background-color: #CFD8DC;
+  background-color: #263238;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -373,7 +373,7 @@ pre {
 }
 
 body {
-  color: #363636;
+  color: #fff;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
@@ -440,7 +440,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #363636;
+  color: #fff;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -474,7 +474,7 @@ table th {
   border-radius: 6px;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #363636;
+  color: #fff;
   display: block;
   padding: 1.25rem;
 }
@@ -546,14 +546,14 @@ a.box:active {
 }
 
 .button:active, .button.is-active {
-  border-color: #363636;
+  border-color: #fff;
   color: #363636;
 }
 
 .button.is-text {
   background-color: transparent;
   border-color: transparent;
-  color: #363636;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -2473,15 +2473,15 @@ fieldset[disabled] .button {
 }
 
 .progress::-webkit-progress-value {
-  background-color: #363636;
+  background-color: #fff;
 }
 
 .progress::-moz-progress-bar {
-  background-color: #363636;
+  background-color: #fff;
 }
 
 .progress::-ms-fill {
-  background-color: #363636;
+  background-color: #fff;
   border: none;
 }
 
@@ -2665,8 +2665,8 @@ fieldset[disabled] .button {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   background-color: #ededed;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #363636), color-stop(30%, #ededed));
-  background-image: linear-gradient(to right, #363636 30%, #ededed 30%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #fff), color-stop(30%, #ededed));
+  background-image: linear-gradient(to right, #fff 30%, #ededed 30%);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -2996,7 +2996,7 @@ fieldset[disabled] .button {
           align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: #363636;
+  color: #fff;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -3245,7 +3245,7 @@ a.tag:hover {
 }
 
 .subtitle {
-  color: #363636;
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
@@ -4306,7 +4306,7 @@ fieldset[disabled] .select select:hover {
 
 .file-cta {
   background-color: whitesmoke;
-  color: #363636;
+  color: #fff;
 }
 
 .file-name {
@@ -4654,7 +4654,7 @@ fieldset[disabled] .select select:hover {
 .control.has-icons-left .input:focus ~ .icon,
 .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
 .control.has-icons-right .select:focus ~ .icon {
-  color: #363636;
+  color: #fff;
 }
 
 .control.has-icons-left .input.is-small ~ .icon,
@@ -4838,7 +4838,7 @@ fieldset[disabled] .select select:hover {
   background-color: white;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #363636;
+  color: #fff;
   max-width: 100%;
   position: relative;
 }
@@ -4983,7 +4983,7 @@ fieldset[disabled] .select select:hover {
 }
 
 .dropdown-item {
-  color: #363636;
+  color: #fff;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -5277,7 +5277,7 @@ button.dropdown-item.is-active {
 
 .menu-list a {
   border-radius: 2px;
-  color: #363636;
+  color: #fff;
   display: block;
   padding: 0.5em 0.75em;
 }
@@ -5480,9 +5480,9 @@ button.dropdown-item.is-active {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #363636;
+  background-color: #fff;
   border-radius: 4px 4px 0 0;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.7);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5515,7 +5515,7 @@ button.dropdown-item.is-active {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #363636;
+  color: #fff;
   padding: 1.25em 1.5em;
 }
 
@@ -6350,7 +6350,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: #363636;
+  color: #fff;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -6414,7 +6414,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #363636;
+  color: #fff;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -7176,12 +7176,12 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 }
 
 .panel-tabs a.is-active {
-  border-bottom-color: #363636;
+  border-bottom-color: #fff;
   color: #363636;
 }
 
 .panel-list a {
-  color: #363636;
+  color: #fff;
 }
 
 .panel-list a:hover {
@@ -7285,7 +7285,7 @@ label.panel-block:hover {
   border-bottom-color: #dbdbdb;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  color: #363636;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9383,11 +9383,11 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .has-text-grey-dark {
-  color: #363636 !important;
+  color: #fff !important;
 }
 
 .has-background-grey-dark {
-  background-color: #363636 !important;
+  background-color: #fff !important;
 }
 
 .has-text-grey {
@@ -11679,7 +11679,7 @@ th:not([align]) {
 }
 
 html {
-  background-color: #CFD8DC;
+  background-color: #263238;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -11719,7 +11719,7 @@ pre {
 }
 
 body {
-  color: #363636;
+  color: #fff;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
@@ -11786,7 +11786,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #363636;
+  color: #fff;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -11872,14 +11872,14 @@ table th {
 }
 
 .button:active, .button.is-active {
-  border-color: #363636;
+  border-color: #fff;
   color: #363636;
 }
 
 .button.is-text {
   background-color: transparent;
   border-color: transparent;
-  color: #363636;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -13371,7 +13371,7 @@ fieldset[disabled] .button {
 }
 
 .subtitle {
-  color: #363636;
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
@@ -14391,7 +14391,7 @@ fieldset[disabled] .select select:hover {
 
 .file-cta {
   background-color: whitesmoke;
-  color: #363636;
+  color: #fff;
 }
 
 .file-name {
@@ -14739,7 +14739,7 @@ fieldset[disabled] .select select:hover {
 .control.has-icons-left .input:focus ~ .icon,
 .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
 .control.has-icons-right .select:focus ~ .icon {
-  color: #363636;
+  color: #fff;
 }
 
 .control.has-icons-left .input.is-small ~ .icon,
@@ -15505,7 +15505,7 @@ body.has-navbar-fixed-bottom {
 }
 
 .navbar-burger {
-  color: #363636;
+  color: #fff;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -15569,7 +15569,7 @@ body.has-navbar-fixed-bottom {
 
 .navbar-item,
 .navbar-link {
-  color: #363636;
+  color: #fff;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -16875,6 +16875,26 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   .section.is-large {
     padding: 18rem 1.5rem;
   }
+}
+
+* .title {
+  color: white;
+}
+
+* p {
+  color: white;
+}
+
+* .subtitle {
+  color: black;
+}
+
+* #name {
+  color: white;
+}
+
+* #title {
+  color: white;
 }
 
 .breadcrumb {

@@ -6,9 +6,9 @@
 // Set your brand colors
 $purple: 	#3273dc;
 $pink: 	#209cee;
-$brown: 		#363636;
+$brown: 		#fff;
 $beige-light: 	#7a7a7a;
-$beige-lighter: #CFD8DC;
+$beige-lighter: #263238;
 
 // Update Bulma's global variables
 $family-sans-serif: "Nunito", sans-serif;
@@ -39,7 +39,26 @@ $input-shadow: none;
 @import "../node_modules/bulma/sass/layout/section.sass";
 
 
+*{
+    .title{
+        color: white;
 
+    }
+    p{
+        color: white;
+    }
+    .subtitle{
+        color: black;
+    }
+
+    #name{
+        color: white;
+    }
+
+    #title{
+        color: white;
+    }
+}
 //MOBILE FIRST
 
 
